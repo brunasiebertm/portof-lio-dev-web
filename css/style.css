@@ -7,7 +7,10 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:calc(12px + 0.390625vw);
 }
-
+section h2 {
+    text-align: center;
+    font-size: 1.1rem;
+}
 
 
 /*
@@ -51,4 +54,57 @@ section.banner p button {
     font-size: 1.4rem;
     padding: 10px 20px 10px 20px;
     border-radius: 4px;
+}
+/*
+======================================================================
+posts
+======================================================================
+*/
+section.posts {
+    background:#EDF7FA;
+    padding: 20px 10px 20px 10px;
+}
+section.posts ul li {
+    background-color: white;
+    margin:20px 0 20px 0;
+    padding: 15px 10px 15px 10px;
+}
+section.posts ul li h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+section.posts ul li p {
+    font-size: 1.1rem;
+    margin: 15px 0 15px 0;
+    line-height: 1.4rem;
+}
+/*
+===================================================================
+works
+===================================================================
+*/
+section.works {
+    margin: 22px 10px 22px 10px;
+}
+section.works ul li {
+    margin: 20px 0 20px 0;
+}
+section.works ul li h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin: 20px 10px 20px 10px;
+}
+section.works ul li p{
+    font-size: 1.25rem;
+}
+section.works ul li p.info {
+    color: #8695A4;
+    margin: 20px 10px 20px 10px;
+}
+section.works ul li p.info span {
+    background: #142850;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 4px 10px 4px 10px;
 }
