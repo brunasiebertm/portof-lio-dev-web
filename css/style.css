@@ -8,7 +8,7 @@ html {
     font-size:calc(12px + 0.390625vw);
 }
 section h2 {
-    text-align: center;
+
     font-size: 1.1rem;
 }
 
@@ -107,4 +107,49 @@ section.works ul li p.info span {
     font-weight: bold;
     border-radius: 20px;
     padding: 4px 10px 4px 10px;
+}
+
+/*=================================================================
+footer
+=================================================================*/
+
+footer {
+    text-align: center;
+    padding: 10vw 0 10vw 0;
+}
+
+footer nav p a {
+    color: #21243D;
+    font-size: 1.8rem;
+    margin: 0px 5px 0px 5px;
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+    header{
+        padding: 3vw 2vw 5vw 2vw;
+    }
+  header nav ul {
+    display: flex;
+    justify-content: right;
+  }
+
+  header nav ul li {
+    margin: 0px 20px 0px 20px;
+  }
+
+  section.banner {
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+  section.banner div.text {
+    width: 50%;
+    text-align: left;
+    padding: 0 10vw 0 0;
+  }
+
+  section.banner img {
+    width: 90%;
+  }
 }
