@@ -8,7 +8,7 @@ html {
     font-size:calc(12px + 0.390625vw);
 }
 section h2 {
-
+    text-align: center;
     font-size: 1.1rem;
 }
 
@@ -138,18 +138,49 @@ footer nav p a {
     margin: 0px 20px 0px 20px;
   }
 
+  main section h2 {
+    text-align: left;
+  }
+
   section.banner {
     display: flex;
     flex-direction: row-reverse;
+    padding: 0 10vw 0 10vw
 
   }
+  section.banner h2 {
+    text-align: left;
+  }
   section.banner div.text {
-    width: 50%;
     text-align: left;
     padding: 0 10vw 0 0;
   }
 
   section.banner img {
-    width: 90%;
+    width: 130%;
+  }
+  section.posts ul {
+    display: flex;
+    margin: 1vw  0 0 0;
+  } 
+
+  section.posts {
+    padding: 3vw 10vw 3vw 10vw;
+  }
+
+  section.posts ul li{
+    margin: 0 1vw 0 1vw;
+  }
+
+  section.works ul {
+    display: flex;
+  }
+
+  section.works {
+    padding: 3vw 8vw 3vw 8vw;
+  }
+
+  section.works h2 {
+    padding: 0 0 3vw 0;
   }
 }
